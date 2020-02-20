@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Club list</title>
+    <script src="student.js"></script>
+    <script src="JSON.js"></script>
+    <link rel="stylesheet" href="student.css">
+    <link rel = "stylesheet" href = "modal.css">
+</head>
+
+<body onload="pageload()">
+    <header>
+        <span id="welcome">Welcome, <span id="name">student's name</span></span>
+        <img src="cog.png" alt="cog image" id="cog" />
+    </header>
+    <div>
+        <section id="clublist">
+            <!--<span class="popuptext" id="myPopup">popup info</span>-->
+        </section>
+
+        <aside id="joined">
+        </aside>
+    </div>
+
+    <footer>
+        <a href="index">Site Index</a>
+        <a href="legal">Privacy&Legal</a>
+        <a href="careers">Careers</a>
+        <a href="contact">Contact Clubify</a>
+    </footer>
+
+    <!-- Modal for logout -->
+    <div id = "myModal" class = "modal">
+
+        <div class = "modal-content">
+            <p>
+                Are you sure you want to log out?
+            </p>
+            <a href = "../welcome/welcome.html"><button>Yes</button></a> &nbsp; <button id = "close">Cancel</button>
+        </div>
+    </div>
+    <script src = "modal.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+#img1 {
+    border-radius: 50%;
+    background-color: white;
+    height: 100%;
+    width: auto;
+    float: right;
+    vertical-align: middle;
+}
+
+#hTitle{
+    vertical-align: middle;
+}
+
+header{
+    height: 100px;
+    width: 100%;
+    background-color: red;
+    font-size: xx-large;
+}
