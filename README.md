@@ -1,5 +1,8 @@
 # Clubify
-Hackfest 2020
+__Hackfest 2020__
+
+_Contributors: Sean Malins-Umansky, Matthew do Santos, Taehyeon Kim, Kwonmin Bok, Savia Nash_
+
 
 Go to "welcome" folder for welcome.html file. Users will start from the welcome webpage.
 
